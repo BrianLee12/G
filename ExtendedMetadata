@@ -1,0 +1,62 @@
+{
+    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/adapools.org/master/example-meta.json",
+    "info": {
+        "url_png_icon_64x64": "http(s) url to pool icon; not animated; max 40kb",
+        "url_png_logo": "http(s) url to pool logo; not animated; max 50kb",
+        "location": "Alberta, Canada",
+        "social": {
+            "twitter_handle": "GAIAstakepool",
+            "telegram_handle": "",
+            "facebook_handle": "",
+            "youtube_handle": "UCeT1jeH6vzkun0IK1KVrfeQ",
+            "twitch_handle": "",
+            "discord_handle": "GAIAstakepool#0595",
+            "github_handle": ""
+            "instagram_handle": "gaiastakepool"
+        },
+        "company": {
+            "name": "GAIA Stake Pool",
+            "addr": "",
+            "province": "Alberta",
+            "country": "Canada",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "Cardano Stake Pool Operator who loves ",
+            "server": "GAIA is built on enterprise-class servers and uses a premium network service tier through the Google Cloud platform. This ensures maximum performance and flexible hardware upgrades.",
+            "company": "GAIA Stake Pool"
+        },
+        "rss": ""
+    },
+    "my-pool-ids": {
+        "0": "f66a36de855d53b9d5110bd46640f48dbab1c848c9e2f5c36d8c12dc",
+        "1": ""
+    },
+    "when-satured-then-recommend": {
+        "0": "42aebb6bd342c6ea6c5a9851c8af88de3804a38ff9b67dab4df1bc57",
+        "1": ""
+    },
+    "telegram-admin-handle": {
+        "0": ""
+    },
+    "adapools_ext": {
+        "prometheus": {
+            "0": {
+                "name": "relay 1 US",
+                "type": "relay",
+                "key": "example_get_own_on_adapools.org/connect"
+            },
+            "1": {
+                "name": "relay 2 US",
+                "type": "relay",
+                "key": "example_get_own_on_adapools.org/connect"
+            },
+            "2": {
+                "name": "block producer Canada",
+                "type": "bp",
+                "key": "example_get_own_on_adapools.org/connect"
+            }
+        }
+    }
+}
