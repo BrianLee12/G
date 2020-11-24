@@ -1,5 +1,5 @@
 {
-    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://git.io/JkKZe",
+    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://git.io/JkPXr",
     "info": {
         "url_png_icon_64x64": "https://github.com/BrianLee12/GAIA-Stake-Pool-Metadata/blob/main/Gaia-Logo-Icon-64X64.png",
         "url_png_logo": "https://github.com/BrianLee12/GAIA-Stake-Pool-Metadata/blob/main/Gaia-Logo-Circlel-Portrait1.png",
@@ -16,13 +16,13 @@
         "company": {
             "name": "GAIA Stake Pool",
             "addr": "",
-            "province": "Alberta",
+            "city": "Alberta",
             "country": "Canada",
             "company_id": "",
             "vat_id": ""
         },
         "about": {
-            "me": "Cardano Stake Pool Operator who loves ",
+            "me": "Cardano Stake Pool Operator who loves nature and Cardano, and wants to bring awareness of Cardano to the world! ",
             "server": "GAIA is built on enterprise-class servers and uses a premium network service tier through the Google Cloud platform. This ensures maximum performance and flexible hardware upgrades.",
             "company": "GAIA Stake Pool"
         },
@@ -42,7 +42,7 @@
     "adapools_ext": {
         "prometheus": {
             "0": {
-                "name": "relay 1 US",
+                "name": "relay 2 US",
                 "type": "relay",
                 "key": "example_get_own_on_adapools.org/connect"
             },
