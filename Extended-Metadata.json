@@ -1,8 +1,8 @@
 {
     "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://git.io/JkPXr",
     "info": {
-        "url_png_icon_64x64": "https://git.io/JIlwJ; not animated; max 40kb",
-        "url_png_logo": "https://git.io/JIlV5; not animated; max 50kb",
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/BrianLee12/GAIA-Stake-Pool-Metadata/main/Gaia-Logo-Icon-64X64.png",
+        "url_png_logo": "https://raw.githubusercontent.com/BrianLee12/GAIA-Stake-Pool-Metadata/main/Gaia-Logo-Circle-Portrait.png",
         "location": "Alberta, Canada",
         "social": {
             "twitter_handle": "GAIAstakepool",
