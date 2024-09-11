@@ -1,0 +1,160 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a4010103272006215820b02f7e16271b47ad7787ce13c584d88007e1e41248a3daffe1c4f17c895b46bc"
+        },
+        "signature": {
+          "@value": "845846a201276761646472657373583901224647f1bc58a8c0875b29dbbef0e2cf130611db503aa50d27c6da993d0510f07b21d8fb73ec8c71b778c9930efc9a871bf82c7c080afd1ba166686173686564f45844566572696679204452657020647265703165736d6c61363979686a6e337972386630777a6a79796130373934327078766565723334737a773975717a79676a667133617058408393ee633c29be63d7b7d31af575a7e33a16620800ccfcb78c8ea1a28688232cf749193d4fc871b723adb704e498a615362abc7110c776435106d00ec0308e07"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "Brian Lee | SPO of GAIA Stake Pool | Founder of Frostlore Games | Creator of Captivate | Artist | Designer | Gamer | Nature Lover | Dog and Cat Dad"
+    },
+    "email": {
+      "@value": "gaiastakepool@gmail.com"
+    },
+    "givenName": {
+      "@value": "GAIA"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmUrXXYiYb4aS5yPFP8taL5MJVQtcTfbM1sWWSzfh1aC3g",
+      "sha256": "cb5b1aa56094627a9d5bb046a4d79297c5e3c7d672e8517f09d63ca1f9c8b82d"
+    },
+    "motivations": {
+      "@value": "🌐 To enable necessary change on the Cardano blockchain so that we can continue to innovate, decentralize, attract new users to the ecosystem, and become the #1 cryptocurrency and worldwide financial operating system.\n\n🌐 To ensure the treasury is managed conservatively so that we will always be able to fund future development on Cardano.\n\n🌐 To enshrine the maximum supply cap of 45 billion ADA.\n\n🌐 To encourage cost effective advertising and onboarding initiatives. There are many untapped areas of connection for Cardano to onboard new users.\n\n🌐 To empower the world with universal access to secure and cost effective tools on the Cardano blockchain, replacing failed legacy systems."
+    },
+    "objectives": {
+      "@value": "✅ 1) Bring Value to Cardano\n☑️ 2) Mass Adoption and easy to use systems and tools\n✅ 3) Decentralization and network performance\n☑️ 4) Making a Difference by considering worldwide needs"
+    },
+    "paymentAddress": {
+      "@value": "$gaiastakepool"
+    },
+    "qualifications": {
+      "@value": "I've been a part of the Cardano community since 2017, and truly believe in the Cardano vision of reshaping our world for the better with blockchain.\n\nI'm the owner and operator of GAIA Stake Pool, a mission driven pool supporting charities that heal the earth and art initiatives on Cardano.\n\nAs a member of Climate Neutral Cardano, I worked on both the Cardano Forest project (veritree) (https://ito.veritree.com) and the CNC Ala project (Tetikasa Ala) (https://cncala.climateneutralcardano.org)\n\nAs an Art Director working in the entertainment industry, I successfully managed and completed many large-scale projects for high-profile clients around the world. \n\nI am always ready to cooperate and collaborate to get great things accomplished. "
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "GAIA Stake Pool X"
+        },
+        "uri": {
+          "@value": "https://x.com/GAIAstakepool"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "GAIA Stake Pool Website"
+        },
+        "uri": {
+          "@value": "https://gaiastakepool.com"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Frostlore Games X"
+        },
+        "uri": {
+          "@value": "https://x.com/FrostloreGames"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Frostlore Games Website"
+        },
+        "uri": {
+          "@value": "https://frostloregames.com"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Discord"
+        },
+        "uri": {
+          "@value": "https://discord.gg/Zc3qxQ9KzE"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "LinkedIn"
+        },
+        "uri": {
+          "@value": "https://www.1694.io/en/dreps/www.linkedin.com/in/brian-lee-97478964"
+        }
+      }
+    ]
+  }
+}
