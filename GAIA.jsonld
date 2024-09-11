@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "GAIA",
+    "motivations": "🌐 To enable necessary change on the Cardano blockchain so that we can continue to innovate, decentralize, attract new users to the ecosystem, and become the #1 cryptocurrency and worldwide financial operating system.\n\n🌐 To ensure the treasury is managed conservatively so that we will always be able to fund future development on Cardano.\n\n🌐 To enshrine the maximum supply cap of 45 billion ADA.\n\n🌐 To encourage cost effective advertising and onboarding initiatives. There are many untapped areas of connection for Cardano to onboard new users.\n\n🌐 To empower the world with universal access to secure and cost effective tools on the Cardano blockchain, replacing failed legacy systems.",
+    "objectives": "✅ 1) Bring Value to Cardano\n☑️ 2) Mass Adoption and easy to use systems and tools\n✅ 3) Decentralization and network performance\n☑️ 4) Making a Difference by considering worldwide needs",
+    "paymentAddress": "addr1qy3yv3l3h3v23sy8tv5ah0hsut83xps3mdgr4fgdylrd4xfaq5g0q7epmrah8myvwxmh3jvnpm7f4pcmlqk8czq2l5ds24uazz",
+    "qualifications": "I've been a part of the Cardano community since 2017, and truly believe in the Cardano vision of reshaping our world for the better with blockchain.\n\nI'm the owner and operator of GAIA Stake Pool, a mission driven pool supporting charities that heal the earth and art initiatives on Cardano.\n\nAs a member of Climate Neutral Cardano, I worked on both the Cardano Forest project (veritree) (https://ito.veritree.com) and the CNC Ala project (Tetikasa Ala) (https://cncala.climateneutralcardano.org).\n\nAs an Art Director working in the entertainment industry, I successfully managed and completed many large-scale projects for high-profile clients around the world. \n\nI am always ready to cooperate and collaborate to get great things accomplished. ",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "GAIA Stake Pool X",
+        "uri": "https://x.com/GAIAstakepool"
+      },
+      {
+        "@type": "Link",
+        "label": "GAIA Stake Pool Website",
+        "uri": "https://gaiastakepool.com"
+      },
+      {
+        "@type": "Link",
+        "label": "Frostlore Games X",
+        "uri": "https://x.com/FrostloreGames"
+      },
+      {
+        "@type": "Link",
+        "label": "Frostlore Games Website",
+        "uri": "https://frostloregames.com"
+      },
+      {
+        "@type": "Link",
+        "label": "Discord",
+        "uri": "https://discord.gg/Zc3qxQ9KzE"
+      },
+      {
+        "@type": "Identity",
+        "label": "LinkedIn",
+        "uri": "www.linkedin.com/in/brian-lee-97478964"
+      }
+    ]
+  }
+}
